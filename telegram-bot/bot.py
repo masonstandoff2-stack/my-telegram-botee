@@ -6,7 +6,7 @@ import threading
 from collections import defaultdict
 
 # токен
-bot = telebot.TeleBot("8428311632:AAHG2voyPDqXoSYTYZykmt1I5ad1n7R7Tss")
+bot = telebot.TeleBot("8458252516:AAGprt5rocGpInZ0WBY8ryGKYwF-qbcLHvk")
 
 # id основного админа (ты)
 MAIN_ADMIN_ID = 8281448580
@@ -15,7 +15,7 @@ MAIN_ADMIN_ID = 8281448580
 admins = [5012040224, 8426101180]
 
 # id чата tg в котором work
-WORK_CHAT_ID = -1003627161864
+WORK_CHAT_ID = -5173407074
 
 data = {}
 user_data = {}
@@ -841,4 +841,5 @@ print("🌐 Можно писать города и по-русски, и по-�
 print("🗑️ Команда /d [сервер] удаляет конкретный слёт")
 print("📊 Статистика доступна по команде /stats (админы) и /mystats")
 print("🔔 Уведомления о включении/выключении бота в чате")
+
 bot.infinity_polling() вот сам код
